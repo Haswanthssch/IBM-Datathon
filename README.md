@@ -3,14 +3,14 @@
 
 This project predicts **food wastage figures** for different cities using **Random Forest Regressor** models and exports them in **PMML (Predictive Model Markup Language)** format for easy integration.
 
-## 📂 Project Structure
+# #📂 Project Structure
 
 ```plaintext
 ├── pmml_code_format.py           # Main script to train models and export to PMML
 ├── fs1.xlsx                      # Dataset containing food wastage data
 ├── README.md                     # Documentation (this file)
 ├── {city_name}_food_wastage_model.pmml  # PMML files generated per city
-
+```
 # City-wise Food Availability Prediction using Random Forest
 
 This project uses **Random Forest Regression** to predict the food availability across different hotels in various cities. The predictions are based on historical food wastage estimates and are grouped by cities. The code handles missing data, creates lagged features, and generates forecasts with slight variations for the next ten days. It also assigns hotels to accommodate user-provided food requirements.
